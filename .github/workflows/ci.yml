@@ -23,6 +23,3 @@ jobs:
 
       - name: Verify app syntax
         run: node --check backend/app.js
-
-      - name: Break the pipeline intentionally
-        run: exit 1
